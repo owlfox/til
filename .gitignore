@@ -1,0 +1,4 @@
+build
+*.out
+
+.ipynb_checkpoints
