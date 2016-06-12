@@ -40,6 +40,15 @@ If you are relatively new to the area but have already learned the basics, this 
 23. Testing and Test plans
 24. Issue Tracking & Analysis
 25. Run-Time Error logs
+* Detect errors at run-time, feed that information back to developers, and deploy bug fixes to current and future systems.
+
+1. Overview
+2. Error logging
+    Keep error logs in non-volatile memory. Keep as much error log information as you can afford. Periodic entries that a system is working normally can help indirectly determine when problems have occurred.
+3. Error log Analysis
+    User error logs to identify causes of observed failures, Just as importantly, use them to detect problems before user even notice them.
+4. For more information
+see also 24, 26
 ## Critical System properties
 26. Dependability
 27. Security
