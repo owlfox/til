@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+    Choose a color : <input type="color" value="#FF00FF" id="colorChooser"/>
+
+    <label for="limited_color_input"> Limited color input</label>
+    <input type="color" value="#333333" list="colors" name="limited_color_input">
+    <datalist id="colors">
+         <option>#0000FF</option>
+         <option>#00FF00</option>
+         <option>#FF0000</option>
+    </datalist>
+</body>
+<!-- scripts below will make the background change with colorpicker -->
+<script>
+     var colorInputField = document.querySelector("#colorChooser");
+     colorInputField.addEventListener('input', function(evt) {
+          document.body.style.backgroundColor = this.value;
+      }, false);
+</script>
+</html>

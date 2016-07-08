@@ -1,0 +1,15 @@
+端午節快到了，在吃粽子緬懷屈原、掛香包遠離驅疫、避邪的同時讓我們順便複習一下幾個歷史有名的程式錯誤(BUG、臭蟲)，遠離病蟲害。
+1. 1947 Grace Murray Hopper 女士記錄到的第一隻BUG。
+2. 1999 千禧蟲
+3. 1991 達蘭導彈事件
+4. 1997 火星氣候探測者號迷航事件
+5. 1996 6月4日 亞利安5號(Ariane 5)
+
+其中的第3, 5隻在CSAPP都有提及
+3: p.111 practice 2.46
+5: p.127 Aside Ariane 5: The high cost floating-point overflow
+
+中文版：
+http://technews.tw/2015/12/06/famous-bugs/
+英文版：
+https://www.bbvaopenmind.com/en/the-5-most-infamous-software-bugs-in-history/
